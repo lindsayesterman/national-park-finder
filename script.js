@@ -21,6 +21,8 @@ function displayResults(responseJson) {
     //array, add a list item to the results 
     //list with the NP full name, description,
     //and URL
+    $('.first-appearence').addClass('hidden');
+    $('#results-list').css('background-color',"white")
     $('#results-list').append(
       `<li><h3>${responseJson.data[i].name}</h3>
       <p>${responseJson.data[i].description}</p>

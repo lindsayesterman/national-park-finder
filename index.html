@@ -10,10 +10,11 @@
 </head>
 <body>
     <div class="container">
+        <div class="first-appearence">
         <h1>National Parks Finder</h1>
 
         <form id="js-form">
-            <label for="search-term">Enter a state abbreviation:</label>
+            <label for="search-term">Enter a state abbreviation (results may take a sec):</label>
             <input type="text" name="search-term" id="js-search-term" required><br>
 
             <label for="max-results">How many national parks would you like to see?</label>
@@ -21,7 +22,7 @@
 
             <input type="submit" value="Go!">
         </form>
-
+</div>
         <p id="js-error-message" class="error-message"></p>
         <section id="results" class="hidden">
           <h2>Search results</h2>

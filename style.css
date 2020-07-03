@@ -1,28 +1,40 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	background-image:url('https://npca.s3.amazonaws.com/images/9766/4e7dd6ca-be3b-4e7b-8082-b2d16a0c8bd2-banner.jpg?1456522649')
+
 }
 
 button, input[type="text"] {
-  padding: 5px;
+	padding: 5px;
 }
 
 button:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .container {
-  max-width: 600px;
-  margin: 0 auto;
+	max-width: 600px;
+	margin: 0 auto;
+	font-weight:bold;
+}
+
+.first-appearence{
+	font-weight:bold;
+	color:white;
+	position: absolute;
+	left:58%;
+	top:60%;
+	transform: translate(-50%, -50%);
 }
 
 .error-message {
-    color: red;
+	color: red;
 }
 
 .hidden {
-  display: none;
+	display: none;
 }
